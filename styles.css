@@ -93,16 +93,20 @@ nav p {
 }
 
 .contact_footer p {
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 .contact_footer li {
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 
 .contact_footer div {
     margin: 15px 0;
+}
+
+.contact_footer i {
+    margin-right: 4px;
 }
 
 /* NAVIGATION FOOTER */
@@ -111,22 +115,30 @@ nav p {
     width: 30%;
 }
 
+.nav_footer p {
+    margin-left:  80px;
+}
+
 .nav_footer a{
-    margin-left: 30px;
+    margin-left:  80px;
 }
 
 /* SOCIAL FOOTER */
 
 .social_footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 30%;
 }
 
-.social_footer i{
+.social_footer p {
+    margin-left:  5px;
+}
 
-    color: white;
-    margin: 15px;
+.social_footer a{
+    margin-left:  5px;
+}
+
+.social_footer i {
+    margin-right: 6px;
 }
 
 .text_footer {
