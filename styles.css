@@ -1,0 +1,140 @@
+/* RESET & GLOBAL CSS */
+
+@font-face {
+    font-family: 'Belda Norm Regular';
+    src: url(./assets/font/belda-norm-regular.otf);
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a { color:black; }
+
+/* main p {
+    font-family: 'Belda Norm Regular', sans-serif;
+    font-size: 150px;
+    text-align: center;
+    margin-top: 15rem;
+    font-weight: 700;
+    /* letter-spacing: 3px; */
+    /* text-transform: uppercase; */
+/* } */
+
+/* ---------- FOOTER ----------- */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #192B4B;
+}
+
+nav p {
+    font-size: 19px;
+    color: #fff;
+}
+
+nav li {
+    font-size: 15px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 15px 0px;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav p {
+    margin: 30px 30px;
+}
+
+/* INFOS FOOTER */
+
+.infos_footer {
+    width: 50%;
+}
+
+.infos_footer div p {
+    font-size: 15px;
+}
+
+
+/* CONTACT FOOTER */
+
+.contact_footer {
+    width: 30%;
+}
+
+.contact_footer p {
+    margin-left: 60px;
+}
+
+.contact_footer li {
+    margin-left: 60px;
+}
+
+
+.contact_footer div {
+    margin: 15px 0;
+}
+
+/* NAVIGATION FOOTER */
+
+.nav_footer {
+    width: 30%;
+}
+
+.nav_footer a{
+    margin-left: 30px;
+}
+
+/* SOCIAL FOOTER */
+
+.social_footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_footer i{
+
+    color: white;
+    margin: 15px;
+}
+
+.text_footer {
+    font-size: 12px;
+    text-align: center;
+
+}
+
+
+
+
